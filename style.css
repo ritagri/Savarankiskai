@@ -1,0 +1,391 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#eee;
+}
+.my-container{
+    background-color: white;
+    max-width: 60%;
+    margin:0 auto;
+}
+
+header img{
+    width: 7rem;
+    padding: 1.5rem;
+}
+header .hamburger{
+    display: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    color:rgb(173, 169, 169);
+  font-size: 15px;
+padding:1.5rem;
+text-decoration: none;
+}
+
+header nav a:last-child{
+    margin-right: 10rem;
+    color: rgb(233, 141, 211);
+}
+
+nav a:hover{
+    color: brown;
+}
+
+.NFT, .NFT-bottom{
+display:inline-flex;
+justify-content: space-between;}
+
+.NFT img, .NFT-bottom img{
+    width:60%;
+    height:auto;
+    float: right;
+    padding-right: 8rem;
+ 
+}
+
+.NFT-bottom img{
+    width:30%;
+    height:auto;
+    float: right;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    padding-bottom: 0.2rem; 
+
+}
+
+.NFT1 h3{
+    color:rgb(233, 141, 211);
+    font-size: 12px;
+    padding:1.5rem;
+    padding-bottom: 0rem;
+}
+
+.NFT1 h1{
+    padding: 1.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.NFT-bottom .NFT1 h1{
+    padding: 1.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.NFT1 p{
+    padding: 1.5rem;
+    padding-top: 0rem;
+    color: rgb(44, 40, 40);
+    font-size: small;
+}
+
+.NFT1 button{
+    background-color: white;
+    padding: 0.5rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 2rem;
+    border-color: rgb(182, 34, 132);
+}
+
+.NFT1 button a{
+    text-decoration: none;
+    color:black;
+    padding: 1.5rem;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+.NFT1 button:hover {
+    background-color: #008CBA;}
+
+    .NFT-bottom{
+        padding-top: 2rem;
+        margin-left: 2rem;
+        border-top:solid rgb(238, 233, 233);
+        border-bottom: solid rgb(238, 233, 233);
+    }
+
+    .freeNFT{
+    background-image: url(assets/background.svg);
+    background-repeat: no-repeat;
+    padding: 1.5rem;
+    margin:0 auto;
+    margin-top: 1rem;
+    width:90%;
+    height:auto;
+    border-radius: 0.5rem;
+    margin-left: 1.5rem;
+    }
+
+    .freeNFT h1{
+        padding-top: 4rem;
+        font-weight:600;
+        font-size: x-large;
+    }
+  
+    .freeNFT p{
+        font-size: 0.8rem;
+        color:rgb(44, 43, 43)
+    }
+
+    .companies div{
+        display: inline;
+        padding-right: 3rem;
+    }
+
+ 
+    .companies{
+        padding-top:5rem;
+        padding-bottom: 5rem;
+        margin-left: 1.5rem;
+        width:100%;
+        height: auto;
+    }
+
+    .cards{
+        display:flex;
+        padding: 1.5rem;
+        gap: 3rem;
+      flex-wrap: no-wrap;
+    }
+
+    .NFTimg{
+        width:100%;
+        height:auto;
+        margin-bottom: 0rem;
+    }
+
+      .Auction h1{
+          padding: 1.5rem;
+          padding-bottom: 0;
+          font-weight:600;
+          font-size: x-large;
+      }
+        .Auction p{
+            padding: 1.5rem;
+            padding-top: 0.5rem;
+            font-size: 0.8rem;
+            color:rgb(44, 43, 43)
+        }
+        .Auction p a{
+            color:rgb(44, 43, 43);
+            cursor: pointer;
+        }
+    .card{
+        background-color: rgb(228, 222, 222);
+        border-radius: 0.6rem;
+    }
+
+     
+.card-body{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    gap:2rem;
+
+}
+
+.left h5{
+    font-size: 0.7rem;
+    color:orangered;
+    padding: 0;
+}
+.right h5{
+        font-size: 0.7rem;
+        color:rgb(99, 96, 96);
+        padding: 0;
+    }
+.right {
+   text-align: right;
+   padding-right: 0rem;
+}
+.left {
+    text-align: left;
+}
+
+.card-body h6{
+    font-size: 0.9rem;
+    color: rgb(116, 111, 111);
+    padding: 0;
+}
+.card-body img{
+    width: 10px;
+}
+
+.About{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    padding-right: 2rem;
+}
+
+.About-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.About-right div a{
+    display: block;
+    text-decoration: none;
+    color: rgb(66, 60, 60);
+    font-size: 0.9rem;
+    padding: 0.3em;
+}
+
+.About-right div :first-child{
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.About-right div a:hover{
+    transition: 0.5s;
+    color: palevioletred;
+}
+
+.About-left{
+    color: rgb(87, 78, 78);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+}
+
+.About-left img{
+    width: 50%;
+    height: auto;
+}
+
+.About-left svg{
+    padding-right: 1rem;
+}
+footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1.5rem;
+font-size: 0.8rem;
+color: rgb(194, 209, 209);
+}
+
+
+@media only screen and (max-width:600px) {
+    header{
+        background-color: aquamarine;
+    }
+    header nav{
+        display: none;
+    }
+
+    header .hamburger{
+        display: block;
+        width: 10%;
+    }
+    .NFT .NFT2{
+       /* float:left;
+       width:70%;
+       height: auto;
+       margin-left: 7rem; */
+
+       position: absolute;
+       width:94%;
+       height: auto;
+       padding-top: 1rem;;
+       margin-left: 6rem;
+   
+    }
+
+    .NFT1 h1{
+        font-size: 2rem;
+    }
+    .NFT p{
+        padding-right: 8rem;
+    }
+
+    .freeNFT{
+        width: auto;
+        margin: 0;
+        margin-top: 2rem;
+        }
+.companies :nth-child(4){
+    display: none;
+}
+
+.companies div img {
+    width:100%;
+    height: auto;
+    
+}
+
+.companies{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:1rem;
+    padding-bottom: 0;
+   }
+
+ 
+    .cards{
+        width: max-content;
+    }
+
+  .NFT-bottom{
+      margin-left: 0;
+      margin-right: 2rem;
+  }
+
+  .NFT-bottom .NFT2{
+    position: absolute;
+    width:94%;
+    height: auto;
+    padding-top: 5rem;;
+    margin-left: 1rem;
+
+ }
+    
+  
+.NFT1 p{
+    padding-right: 6rem;
+}
+.NFT1 p span{
+    display: none;
+}
+.NFT-bottom{
+    margin-right: 0;
+    padding-bottom: 1.5rem;
+
+}
+.About{
+    display: inline;
+}
+.About-left{
+    font-size: 0.5;
+}
+.About-right{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:0.7rem;
+    padding-left: 1rem;
+}
+
+footer span{
+display: none;
+}
+
+
+
+
+
+}
